@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export function useFilteredMetrics(metricItems) {
+export function useFilteredMetrics() {
     const [filteredMetrics, setFilteredMetrics] = useState([]);
     return { filteredMetrics, setFilteredMetrics };
 }
